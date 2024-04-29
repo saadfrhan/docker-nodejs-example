@@ -1,14 +1,18 @@
 {
   "name": "docker-nodejs-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Node.js app using TypeScript for Docker",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "docker",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Saad Farhan",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
   }
